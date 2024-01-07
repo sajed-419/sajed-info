@@ -109,7 +109,6 @@ nav a {
 color: var(--Dark-01, #181818);
 font-family: Open Sans;
 font-size: 85px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
@@ -140,5 +139,12 @@ main{
 
 }
 .about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+    text-align: center;
+}
+.section-description{
     text-align: center;
 }
