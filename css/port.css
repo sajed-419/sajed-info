@@ -148,3 +148,16 @@ main{
 .section-description{
     text-align: center;
 }
+
+/* skill related styles */
+.skills-containar{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+    
+}
+.skill-description{
+    
+}
