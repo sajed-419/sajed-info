@@ -76,6 +76,7 @@ nav a {
     background-position: bottom right;
 }
 
+
 .bannar {
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -138,7 +139,7 @@ main section {
     margin: 130px;
 }
 
-.about-info-container {
+.about-info-containar{
     display: flex;
     justify-content: space-around;
 
@@ -146,6 +147,7 @@ main section {
 
 .about-info {
     text-align: center;
+    padding: 2px;
 }
 
 #what-i-do-description {
@@ -183,4 +185,7 @@ main section {
     font-size: 30px;
     font-weight: 700;
 
+}
+.resume-container{
+    display: flex;
 }
