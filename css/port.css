@@ -220,9 +220,27 @@ main section {
     margin-bottom: 130px;
 }
 /* footer styles */
-footer{
+.footer{
     display: flex;
-    background: #FFF8F3;
+    gap: 100px;
     padding: 130px 200px;
     margin-top: 110px;
+    background-color: #FFF8F3;
+}
+.footer-colom{
+    width: 50%;
+}
+/* .footer-colom{
+    display: flex;
+    flex-direction: column;
+} */
+.contuct .input1, textarea{
+    display: block;
+    margin-bottom: 26px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
