@@ -136,7 +136,9 @@ main section {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    
+    margin-right: 50px;
+    padding: 130px;
 }
 
 .about-info-containar {
@@ -216,4 +218,11 @@ main section {
     text-align: center;
     margin-top: 65px;
     margin-bottom: 130px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 110px;
 }
