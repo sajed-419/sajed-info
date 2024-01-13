@@ -71,9 +71,10 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url(../images/developer.png) ;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    background-image: ;
 }
 
 
@@ -136,9 +137,7 @@ main section {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    
-    margin-right: 50px;
-    padding: 130px;
+    margin: 130px 0;
 }
 
 .about-info-containar {
@@ -249,22 +248,39 @@ main section {
     display: none;
 }
 @media screen and (max-width:576px) {
-    .skills-containar, .resume-container,
-    .about-info-containar, footer{
+    .skills-containar, nav, nav > ul, .bannar, .resume-container,
+    .about-info-containar, .header, footer{
         flex-direction: column;
     }
+    nav > ul{
+        gap: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    .bannar,
     #what-i-do-description{
         padding: 20px;
     }
-    .footer{
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .footer, .about{
         padding: 10px;
     }
     .footer-colom{
         width: 100%;
     }
+    .header{
+        background-image: none;
+    }
+    .bannar .profile-pic{
+        width: 100%;
+    }
 .contuct .input1, textarea{
     width: 80%;
 }
+
 }
 @media screen and (min-width:576px)and (max-width:960px){
     
